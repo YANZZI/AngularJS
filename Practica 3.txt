@@ -1,0 +1,20 @@
+(function(){
+var num,numer;
+var NP=[];
+var cont = 0;
+arreglo(10);
+function a(num){
+    for(numer= 0; numer < num; numer++){
+        if(numer % 2 == 0){
+           NP[cont]=numer;
+           cont ++;
+        }else{ }
+    }
+    impresion(NP);
+}
+
+ for(i=0; i<NP.length; i++){
+        console.log("",NP[i]);
+ }
+
+})();
